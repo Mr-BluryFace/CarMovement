@@ -1,0 +1,427 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K20 ]
+[d frameptr 4065 ]
+"14 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\Application.c
+[e E3021 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E3011 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E3045 . `uc
+BUTTON_NOT_PRESSED 0
+BUTTON_PRESSED 1
+]
+"19
+[e E3003 . `uc
+PIN_LOW 0
+PIN_HIGH 1
+]
+"30
+[e E3059 . `uc
+rely_on 0
+relay_off 1
+]
+"56
+[e E2999 . `uc
+R_NOK 0
+R_OK 1
+]
+"18 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\mcal_gpio.c
+[e E2703 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2693 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2689 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+[e E2681 . `uc
+R_NOK 0
+R_OK 1
+]
+"36
+[e E2685 . `uc
+PIN_LOW 0
+PIN_HIGH 1
+]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\button.c
+[e E2681 . `uc
+R_NOK 0
+R_OK 1
+]
+"18
+[e E2703 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2693 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2689 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"24
+[e E2727 . `uc
+BUTTON_NOT_PRESSED 0
+BUTTON_PRESSED 1
+]
+"31
+[e E2685 . `uc
+PIN_LOW 0
+PIN_HIGH 1
+]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\relay.c
+[e E2681 . `uc
+R_NOK 0
+R_OK 1
+]
+"18
+[e E2703 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2693 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2689 . `uc
+DIRECTION_OUTPUT 0
+DIRECTION_INPUT 1
+]
+"19
+[e E2685 . `uc
+PIN_LOW 0
+PIN_HIGH 1
+]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\dc_motor.c
+[e E2681 . `uc
+R_NOK 0
+R_OK 1
+]
+"27 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\Application.c
+[v _main main `(i  1 e 2 0 ]
+"84
+[v _forward forward `(v  1 e 1 0 ]
+"89
+[v _backward backward `(v  1 e 1 0 ]
+"94
+[v _stop stop `(v  1 e 1 0 ]
+"99
+[v _twist_right twist_right `(v  1 e 1 0 ]
+"104
+[v _twist_left twist_left `(v  1 e 1 0 ]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\button.c
+[v _btn_config btn_config `(E2999  1 e 1 0 ]
+"24
+[v _btn_read_value btn_read_value `(E2999  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\dc_motor.c
+[v _motor_initialize motor_initialize `(E2999  1 e 1 0 ]
+"24
+[v _motor_turn_on motor_turn_on `(E2999  1 e 1 0 ]
+"36
+[v _motor_stop motor_stop `(E2999  1 e 1 0 ]
+"48
+[v _motor_reverse motor_reverse `(E2999  1 e 1 0 ]
+"18 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\mcal_gpio.c
+[v _gpio_pin_direction_intialize gpio_pin_direction_intialize `(E2681  1 e 1 0 ]
+"36
+[v _gpio_pin_write_value gpio_pin_write_value `(E2681  1 e 1 0 ]
+"54
+[v _gpio_pin_read_value gpio_pin_read_value `(E2681  1 e 1 0 ]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\relay.c
+[v _relay_initialize relay_initialize `(E2681  1 e 1 0 ]
+"24
+[v _relay_turn_on relay_turn_on `(E2681  1 e 1 0 ]
+"36
+[v _relay_turn_off relay_turn_off `(E2681  1 e 1 0 ]
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\Application.c
+[s S28 . 2 `S24 1 relay1 1 0 `S24 1 relay2 1 1 ]
+[v _motor1 motor1 `S28  1 e 2 0 ]
+"12
+[v _motor2 motor2 `S28  1 e 2 0 ]
+[s S31 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 btn_status 1 0 :1:7 
+]
+"14
+[v _btn_forward btn_forward `S31  1 e 1 0 ]
+"15
+[v _btn_backward btn_backward `S31  1 e 1 0 ]
+"16
+[v _btn_right btn_right `S31  1 e 1 0 ]
+"17
+[v _btn_left btn_left `S31  1 e 1 0 ]
+"19
+[v _f_status f_status `ui  1 e 2 0 ]
+"20
+[v _b_status b_status `ui  1 e 2 0 ]
+"21
+[v _r_status r_status `ui  1 e 2 0 ]
+"22
+[v _l_status l_status `ui  1 e 2 0 ]
+"552 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8/pic/include/proc/pic18f46k20.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"788
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"996
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"1184
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"1326
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1532
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1644
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1756
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1868
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1980
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"2032
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"2254
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2476
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2698
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2920
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"12 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\mcal_gpio.c
+[v _tris_register tris_register `[5]*.39VEui  1 s 10 tris_register ]
+"14
+[v _lat_register lat_register `[5]*.39VEui  1 s 10 lat_register ]
+"16
+[v _port_register port_register `[5]*.39VEui  1 s 10 port_register ]
+"27 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\Application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"82
+} 0
+"99
+[v _twist_right twist_right `(v  1 e 1 0 ]
+{
+"102
+} 0
+"104
+[v _twist_left twist_left `(v  1 e 1 0 ]
+{
+"107
+} 0
+"94
+[v _stop stop `(v  1 e 1 0 ]
+{
+"97
+} 0
+"36 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\dc_motor.c
+[v _motor_stop motor_stop `(E2999  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S28 . 2 `S24 1 relay1 1 0 `S24 1 relay2 1 1 ]
+[v motor_stop@motor motor `*.39S28  1 p 2 15 ]
+"46
+} 0
+"11
+[v _motor_initialize motor_initialize `(E2999  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S28 . 2 `S24 1 relay1 1 0 `S24 1 relay2 1 1 ]
+[v motor_initialize@motor motor `*.39S28  1 p 2 15 ]
+"22
+} 0
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\relay.c
+[v _relay_initialize relay_initialize `(E2681  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[v relay_initialize@relay relay `*.39S24  1 p 2 11 ]
+"23
+} 0
+"84 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\Application.c
+[v _forward forward `(v  1 e 1 0 ]
+{
+"87
+} 0
+"24 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\dc_motor.c
+[v _motor_turn_on motor_turn_on `(E2999  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S28 . 2 `S24 1 relay1 1 0 `S24 1 relay2 1 1 ]
+[v motor_turn_on@motor motor `*.39S28  1 p 2 15 ]
+"34
+} 0
+"24 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\button.c
+[v _btn_read_value btn_read_value `(E2999  1 e 1 0 ]
+{
+[s S31 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 btn_status 1 0 :1:7 
+]
+[v btn_read_value@button button `*.39S31  1 p 2 10 ]
+[v btn_read_value@status status `*.39E2727  1 p 2 12 ]
+"36
+} 0
+"54 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\mcal_gpio.c
+[v _gpio_pin_read_value gpio_pin_read_value `(E2681  1 e 1 0 ]
+{
+[v gpio_pin_read_value@port port `E2703  1 a 1 wreg ]
+[v gpio_pin_read_value@port port `E2703  1 a 1 wreg ]
+[v gpio_pin_read_value@pin pin `E2693  1 p 1 0 ]
+[v gpio_pin_read_value@logic logic `*.39E2685  1 p 2 1 ]
+[v gpio_pin_read_value@port port `E2703  1 a 1 9 ]
+"64
+} 0
+"11 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\button.c
+[v _btn_config btn_config `(E2999  1 e 1 0 ]
+{
+[s S31 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 btn_status 1 0 :1:7 
+]
+[v btn_config@button button `*.39S31  1 p 2 11 ]
+"22
+} 0
+"18 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\mcal_gpio.c
+[v _gpio_pin_direction_intialize gpio_pin_direction_intialize `(E2681  1 e 1 0 ]
+{
+[v gpio_pin_direction_intialize@port port `E2703  1 a 1 wreg ]
+[v gpio_pin_direction_intialize@port port `E2703  1 a 1 wreg ]
+[v gpio_pin_direction_intialize@pin pin `E2693  1 p 1 0 ]
+[v gpio_pin_direction_intialize@direction direction `E2689  1 p 1 1 ]
+[v gpio_pin_direction_intialize@port port `E2703  1 a 1 10 ]
+"34
+} 0
+"89 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\Application.c
+[v _backward backward `(v  1 e 1 0 ]
+{
+"92
+} 0
+"48 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\dc_motor.c
+[v _motor_reverse motor_reverse `(E2999  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[s S28 . 2 `S24 1 relay1 1 0 `S24 1 relay2 1 1 ]
+[v motor_reverse@motor motor `*.39S28  1 p 2 15 ]
+"58
+} 0
+"24 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\relay.c
+[v _relay_turn_on relay_turn_on `(E2681  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[v relay_turn_on@relay relay `*.39S24  1 p 2 11 ]
+"35
+} 0
+"36
+[v _relay_turn_off relay_turn_off `(E2681  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 relay_status 1 0 :1:7 
+]
+[v relay_turn_off@relay relay `*.39S24  1 p 2 11 ]
+"47
+} 0
+"36 F:\OLD\EDU\Embedded\Projects\InterFace\CarMovement.X\mcal_gpio.c
+[v _gpio_pin_write_value gpio_pin_write_value `(E2681  1 e 1 0 ]
+{
+[v gpio_pin_write_value@port port `E2703  1 a 1 wreg ]
+[v gpio_pin_write_value@port port `E2703  1 a 1 wreg ]
+[v gpio_pin_write_value@pin pin `E2693  1 p 1 0 ]
+[v gpio_pin_write_value@pin_value pin_value `E2685  1 p 1 1 ]
+[v gpio_pin_write_value@port port `E2703  1 a 1 10 ]
+"52
+} 0
